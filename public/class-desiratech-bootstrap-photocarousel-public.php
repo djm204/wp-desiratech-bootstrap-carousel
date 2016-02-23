@@ -97,7 +97,13 @@ class Desiratech_Bootstrap_Photocarousel_Public {
 		 */
 
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/desiratech-bootstrap-photocarousel-public.js', array( 'jquery' ), $this->version, false );
+        add_shortcode('DBCarousel', array( $this, 'carousel_creation')) ;
 
 	}
+    
+    public function carousel_creation(){
+        include_once(plugin_dir_path( __FILE__ ) . 'partials/desiratech-bootstrap-photocarousel-public-display.php');
+
+    }
 
 }
