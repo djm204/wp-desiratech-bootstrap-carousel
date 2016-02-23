@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       desiratech-bootstrap-photocarousel
  * Plugin URI:        https://github.com/djm204/wp-desiratech-bootstrap-carousel.git
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       It is a simple bootstrap carousel plugin
  * Version:           1.0.0
  * Author:            David Mendez
  * Author URI:        http://dev.desiratech.com
