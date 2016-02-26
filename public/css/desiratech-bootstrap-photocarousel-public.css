@@ -2,3 +2,14 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
+ 
+ .carousel-inner > div > img {
+     min-height: 600px;
+     max-height: 600px;
+     display: block;
+     margin: 0px auto;
+ }
+ 
+ #myCarousel{
+     z-index: -9999;
+ }
