@@ -12,10 +12,10 @@
  * @subpackage Desiratech_Bootstrap_Photocarousel/public/partials
  */
 ?>
-<div id="carousel-wrapper">
-<div id="carousel-overlay"></div>
 
-<div id="my-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+<div id="my-carousel" class="carousel slide col-sm-12 col-md-9 col-lg-6" data-ride="carousel" data-interval="1000">
+<div id="carousel-overlay"></div>
+    
   <!-- Indicators -->
   <ol class="hidden carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -26,6 +26,7 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
+      
     <div class="item active">
       <img src="<?= plugin_dir_url(__FILE__)?>../images/pic1.jpg" alt="Accalia">
     </div>
@@ -52,6 +53,4 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
-
 </div>

@@ -4,28 +4,33 @@
  */
  
  .carousel-inner > div > img {
-     min-height: 500px;
+     width: 100%;
      max-height: 500px;
      display: block;
-     margin: 0px auto;
+ }
+ .carousel-inner > div{
+     padding: 15px 0px;
  }
  
 #carousel-overlay{
-    background: black;
+    background: url('../images/pillar.png');
+    background-size: cover;
     position: absolute;
-    left:5.5%;
-    min-height: 500px;
-    max-height: 500px;
-    min-width: 88.542%;
-    max-width: 88.542%;
-    display:block;    
-    opacity: .5;
+    right:-50px;
+    min-height: 100%;
+    min-width: 141px;
+    display:block;
+    z-index:99999;
 }
  
  #my-carousel{
      z-index: -9999;
+     margin: -20px auto 0px auto;
  }
  
  .carousel-inner {
      padding: 0px !important;
+ }
+ 
+ #carousel-wrapper{
  }
