@@ -12,9 +12,10 @@
  * @subpackage Desiratech_Bootstrap_Photocarousel/public/partials
  */
 ?>
+<div id="carousel-wrapper">
+<div id="carousel-overlay"></div>
 
-<!-- This file should primarily consist of HTML with a little bit of PHP. -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+<div id="my-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
   <!-- Indicators -->
   <ol class="hidden carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -30,7 +31,7 @@
     </div>
 
     <div class="item">
-      <img src="<?= plugin_dir_url(__FILE__)?>../images/pic2.png" alt="Chania">
+      <img src="<?= plugin_dir_url(__FILE__)?>../images/pic2.jpg" alt="Chania">
     </div>
 
     <div class="item">
@@ -53,3 +54,4 @@
   </a>
 </div>
 
+</div>

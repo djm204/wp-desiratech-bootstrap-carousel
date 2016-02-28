@@ -4,12 +4,28 @@
  */
  
  .carousel-inner > div > img {
-     min-height: 600px;
-     max-height: 600px;
+     min-height: 500px;
+     max-height: 500px;
      display: block;
      margin: 0px auto;
  }
  
- #myCarousel{
+#carousel-overlay{
+    background: black;
+    position: absolute;
+    left:5.5%;
+    min-height: 500px;
+    max-height: 500px;
+    min-width: 88.542%;
+    max-width: 88.542%;
+    display:block;    
+    opacity: .5;
+}
+ 
+ #my-carousel{
      z-index: -9999;
+ }
+ 
+ .carousel-inner {
+     padding: 0px !important;
  }
